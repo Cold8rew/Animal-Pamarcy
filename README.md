@@ -18,6 +18,5 @@ Portfolio
 
 - 상세페이지에서 별점과 리뷰를 등록하여 다른 회원들에게 경험 후기를 제공할 수 있습니다.
 
-
-https://user-images.githubusercontent.com/93241883/156875040-335dff79-6a81-4f24-8f4b-0ca5256ebc7c.mp4
+https://user-images.githubusercontent.com/93241883/156875182-34ebf1d3-d8e5-4893-8abe-e784e612ac52.mp4
 
