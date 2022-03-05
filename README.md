@@ -22,24 +22,24 @@ https://user-images.githubusercontent.com/93241883/156875182-34ebf1d3-d8e5-4893-
 
 ## 1. 로그인	
 - 간단한 회원가입으로 로그인 할 수 있습니다.
-![그림1](https://user-images.githubusercontent.com/93241883/156877619-5a67429c-6bc3-494b-bc94-e4cc9f0854e0.png)
+![그림1](https://user-images.githubusercontent.com/93241883/156877807-556d4dff-d77f-4d19-931d-800b6d8e4082.png)
 
 ## 2. 회원가입
 - 규칙에 맞게 입력하여 회원가입 할 수 있습니다.
-![그림2](https://user-images.githubusercontent.com/93241883/156877625-51f28f7e-e362-4174-8bbf-d3735f567635.png)
+![그림2](https://user-images.githubusercontent.com/93241883/156877809-feac196d-3b44-42f3-93c3-17444de4015a.png)
 
 ## 3. 아이디/비밀번호 찾기
 - 입력된 이메일로 정보가 일치하는 id를 전송해줍니다.
 - 입력된 이메일로 임시비밀번호를 전송해줍니다.
-![그림3](https://user-images.githubusercontent.com/93241883/156877629-555763f5-dc25-4a0f-bf7f-ffe6e09b8290.png)
+![그림3](https://user-images.githubusercontent.com/93241883/156877810-91d0e202-70e8-4889-aa9d-b4e6c79c1a81.png)
 
 ## 4. 동물약국지도(1)
 - 로그인하면 지도 화면으로 이동합니다.
 - 원하는 지역과 검색어를 통해서 동물약국의 위치와 정보를 찾을 수 있습니다.
-![그림4](https://user-images.githubusercontent.com/93241883/156877636-453b36ad-c6af-44a8-a1f6-4166914c7446.png)
+![그림4](https://user-images.githubusercontent.com/93241883/156877812-cad94eb3-9c49-4c38-b288-c0415ba768dc.png)
 
 ## 5. 동물약국지도(2)	
 - 원하는 약국의 해당 마커를 클릭하면 infowindow로 약국의 정보가 표시됩니다.
 - 약국이름을 클릭하면 상세페이지로 이동합니다.
-![그림5](https://user-images.githubusercontent.com/93241883/156877640-7271bea0-6199-4ac1-b827-c8f587afdc58.png)
+![그림5](https://user-images.githubusercontent.com/93241883/156877815-1c6eced6-aba4-4e99-8239-33f1d4c4f72d.png)
 
