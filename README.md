@@ -27,6 +27,7 @@ https://user-images.githubusercontent.com/93241883/156875182-34ebf1d3-d8e5-4893-
 
 ## 2. 회원가입
 - 회원가입을 통해서 로그인 할 수 있습니다.
+
 ![그림2 1](https://user-images.githubusercontent.com/93241883/156996619-cf948dbd-0c20-4987-989f-6b48819598be.png)
 
 - 입력내용이 특정 규칙에 맞지 않으면 아래에 규칙이 표시됩니다.
