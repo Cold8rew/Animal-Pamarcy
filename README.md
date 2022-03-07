@@ -36,9 +36,10 @@ https://user-images.githubusercontent.com/93241883/156875182-34ebf1d3-d8e5-4893-
 
 ## 3. 아이디/비밀번호 찾기
 - 입력된 이메일로 정보가 일치하는 id를 전송해줍니다.
-- 입력된 이메일로 임시비밀번호를 전송해줍니다.
 
 ![그림3](https://user-images.githubusercontent.com/93241883/156877810-91d0e202-70e8-4889-aa9d-b4e6c79c1a81.png)
+
+- 입력된 이메일로 임시비밀번호를 전송해줍니다.
 
 ![그림6](https://user-images.githubusercontent.com/93241883/156998249-6deb467f-7706-4b66-ac36-19d79700740b.png)
 
