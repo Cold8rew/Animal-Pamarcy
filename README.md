@@ -21,7 +21,7 @@ Portfolio
 https://user-images.githubusercontent.com/93241883/156875182-34ebf1d3-d8e5-4893-8abe-e784e612ac52.mp4
 
 ## 1. 로그인	
-- 간단한 회원가입으로 로그인 할 수 있습니다.
+- 로그인, 회원가입, 아이디/비밀번호찾기로 구성되어있습니다.
 
 ![그림1](https://user-images.githubusercontent.com/93241883/156877807-556d4dff-d77f-4d19-931d-800b6d8e4082.png)
 
