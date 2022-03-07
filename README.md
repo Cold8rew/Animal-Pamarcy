@@ -30,7 +30,7 @@ https://user-images.githubusercontent.com/93241883/156875182-34ebf1d3-d8e5-4893-
 
 ![그림2 1](https://user-images.githubusercontent.com/93241883/156996619-cf948dbd-0c20-4987-989f-6b48819598be.png)
 
-- 입력내용이 특정 규칙에 맞지 않으면 아래에 규칙이 표시됩니다.
+- 회원가입 실패시 아래에 규칙이 표시됩니다.
 
 ![그림2](https://user-images.githubusercontent.com/93241883/156877809-feac196d-3b44-42f3-93c3-17444de4015a.png)
 
@@ -45,6 +45,11 @@ https://user-images.githubusercontent.com/93241883/156875182-34ebf1d3-d8e5-4893-
 - 원하는 지역과 검색어를 통해서 동물약국의 위치와 정보를 찾을 수 있습니다.
 
 ![그림4](https://user-images.githubusercontent.com/93241883/156877812-cad94eb3-9c49-4c38-b288-c0415ba768dc.png)
+
+- 리스트에서 원하는 약국이름을 클릭시 해당 마커로 확대되어 표시됩니다.
+
+![그림4 2](https://user-images.githubusercontent.com/93241883/156997258-78e102f6-23d0-4aea-a9f8-c0fd55eda2e1.png)
+
 
 ## 5. 동물약국지도(2)	
 - 원하는 약국의 해당 마커를 클릭하면 infowindow로 약국의 정보가 표시됩니다.
