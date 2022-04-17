@@ -69,4 +69,6 @@ https://user-images.githubusercontent.com/93241883/163706378-ac569b2e-a132-44a3-
 
 https://user-images.githubusercontent.com/93241883/163706396-9a3eddd2-c0fe-41cf-a738-b0a042467b87.mp4
 
+## 6. 리뷰페이지(1)
 
+![스크린샷(22)](https://user-images.githubusercontent.com/93241883/163706645-f6e4524f-2bc5-45ff-b19b-7f4781dae091.png)
