@@ -18,9 +18,12 @@ Portfolio
 
 - 상세페이지에서 별점과 리뷰를 등록하여 다른 회원들에게 경험 후기를 제공할 수 있습니다.
 
-https://user-images.githubusercontent.com/93241883/156875182-34ebf1d3-d8e5-4893-8abe-e784e612ac52.mp4
+https://user-images.githubusercontent.com/93241883/163706171-b34da387-7898-43d4-9c6d-6911d91576b7.mp4
+
 
 ## 1. 로그인	
+
+
 - 로그인, 회원가입, 아이디/비밀번호찾기로 구성되어있습니다.
 
 ![그림1](https://user-images.githubusercontent.com/93241883/156877807-556d4dff-d77f-4d19-931d-800b6d8e4082.png)
