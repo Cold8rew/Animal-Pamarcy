@@ -46,6 +46,10 @@ https://user-images.githubusercontent.com/93241883/163706171-b34da387-7898-43d4-
 
 ![그림6](https://user-images.githubusercontent.com/93241883/156998249-6deb467f-7706-4b66-ac36-19d79700740b.png)
 
+
+https://user-images.githubusercontent.com/93241883/163706308-bc34b978-4587-4f38-b7c7-240be4cb70e0.mp4
+
+
 ## 4. 동물약국지도(1)
 - 로그인하면 지도 화면으로 이동합니다.
 - 원하는 지역과 검색어를 통해서 동물약국의 위치와 정보를 찾을 수 있습니다.
