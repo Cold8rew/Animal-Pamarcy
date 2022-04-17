@@ -69,6 +69,20 @@ https://user-images.githubusercontent.com/93241883/163706378-ac569b2e-a132-44a3-
 
 https://user-images.githubusercontent.com/93241883/163706396-9a3eddd2-c0fe-41cf-a738-b0a042467b87.mp4
 
-## 6. 리뷰페이지(1)
+## 6. 리뷰페이지
+- 리뷰페이지에서 약국의 총 별점과 다른 사람들의 리뷰를 확인할 수 있습니다.
 
 ![스크린샷(22)](https://user-images.githubusercontent.com/93241883/163706645-f6e4524f-2bc5-45ff-b19b-7f4781dae091.png)
+
+- 직접 별점과 리뷰를 작성하여 남길 수 있습니다.
+
+![스크린샷(23)](https://user-images.githubusercontent.com/93241883/163706716-dfe1ee8f-ca60-4be9-9e25-b69fdc25799e.png)
+
+## 7. 마이페이지/로그아웃
+- 메뉴바에서 마이페이지로 들어가 개인정보를 수정할 수 있습니다.
+
+![스크린샷(24)](https://user-images.githubusercontent.com/93241883/163706825-e594ac2b-701a-47f9-abe1-13e4ff4c7fae.png)
+
+- 메뉴바에서 로그아웃을 하여 로그인페이지로 돌아갑니다.
+
+![스크린샷(26)](https://user-images.githubusercontent.com/93241883/163706835-59d569bb-7c4b-4ef7-9d7d-124c08327140.png)
