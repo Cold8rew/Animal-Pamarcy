@@ -47,8 +47,7 @@ https://user-images.githubusercontent.com/93241883/163706171-b34da387-7898-43d4-
 ![그림6](https://user-images.githubusercontent.com/93241883/156998249-6deb467f-7706-4b66-ac36-19d79700740b.png)
 
 
-https://user-images.githubusercontent.com/93241883/163706308-bc34b978-4587-4f38-b7c7-240be4cb70e0.mp4
-
+https://user-images.githubusercontent.com/93241883/163706378-ac569b2e-a132-44a3-ab44-d112aaf214d7.mp4
 
 ## 4. 동물약국지도(1)
 - 로그인하면 지도 화면으로 이동합니다.
@@ -66,4 +65,8 @@ https://user-images.githubusercontent.com/93241883/163706308-bc34b978-4587-4f38-
 - 약국이름을 클릭하면 상세페이지로 이동합니다.
 
 ![그림5](https://user-images.githubusercontent.com/93241883/156877815-1c6eced6-aba4-4e99-8239-33f1d4c4f72d.png)
+
+
+https://user-images.githubusercontent.com/93241883/163706396-9a3eddd2-c0fe-41cf-a738-b0a042467b87.mp4
+
 
