@@ -38,7 +38,7 @@ https://user-images.githubusercontent.com/93241883/163706171-b34da387-7898-43d4-
 ![그림2](https://user-images.githubusercontent.com/93241883/156877809-feac196d-3b44-42f3-93c3-17444de4015a.png)
 
 ## 3. 아이디/비밀번호 찾기
-- 입력된 이메일로 정보가 일치하는 id를 전송해줍니다.
+- 입력된 이메일로 정보가 일치하는 ID를 전송해줍니다.
 
 ![그림3](https://user-images.githubusercontent.com/93241883/156877810-91d0e202-70e8-4889-aa9d-b4e6c79c1a81.png)
 
