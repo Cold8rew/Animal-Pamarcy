@@ -96,7 +96,9 @@ Spring Cloud Netflix의 Eureka Service를 사용하여 개발하여 API Gateway�
 - MyBatis
 - Oracle DB
 
-ERD: ![Animal-Pamarcy-ERD](https://user-images.githubusercontent.com/93241883/164168157-7c7eccad-1589-475d-bd4f-40d97f735ba6.png)  
+ERD: [Animal-Pamarcy-ERD.pdf](https://github.com/Cold8rew/Animal-Pamarcy/files/8519000/Animal-Pamarcy-ERD.pdf)  
+
+
 
 
 
