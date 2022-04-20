@@ -87,11 +87,19 @@ https://user-images.githubusercontent.com/93241883/163706396-9a3eddd2-c0fe-41cf-
 ![스크린샷(26)](https://user-images.githubusercontent.com/93241883/163706835-59d569bb-7c4b-4ef7-9d7d-124c08327140.png)
 
 
-# Project Structure
+# 개발 과정
+
 Spring Cloud Netflix의 Eureka Service를 사용하여 개발하여 API Gateway패턴으로 통합하였습니다.  
 4주간 팀프로젝트로 저는 Main 지도 페이지를 담당하여 개발하고 개인적으로 Gateway패턴을 사용해서 통합해보았습니다.  
 
+- Spring Cloud Netflix를 사용하여 Eureka Server/Client 구축
+- Spring boot 기반 Rest 백앤드 서버 개발
+- API Gateway를 이용하여 프로젝트 연결 및 통합  
+
+# 기술스택
+🔑
 - Spring boot
+- Nefilx Eureka
 - Spring Security
 - MyBatis
 - Oracle DB
