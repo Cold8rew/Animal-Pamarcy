@@ -96,13 +96,20 @@ Spring Cloud Netflix의 Eureka Service를 사용하여 개발하여 API Gateway�
 - Spring boot 기반 Rest 백앤드 서버 개발
 - API Gateway를 이용하여 프로젝트 연결 및 통합  
 
-# 기술스택
-🔑
-- Spring boot
-- Nefilx Eureka
-- Spring Security
-- MyBatis
-- Oracle DB
+## 기술스택
+### 개발환경
+- Java 11             - Oracle DB
+- MSA                 - MyBatis
+- Nefilx Eureka       - Html/thymeleaf
+- Spring Security     - Javascript/CSS
+- Maven
+
+### 오픈소스 & 라이브러리
+- 경기도 공공데이터 API
+- 카카오지도 API
+- Bootstrap
+- jQuery
+
 
 ERD: [Animal-Pamarcy-ERD.pdf](https://github.com/Cold8rew/Animal-Pamarcy/files/8519000/Animal-Pamarcy-ERD.pdf)  
 
