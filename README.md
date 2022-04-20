@@ -98,13 +98,19 @@ Spring Cloud Netflix의 Eureka Service를 사용하여 개발하여 API Gateway�
 
 ## 기술스택
 ### 개발환경
---Java 11             --Oracle DB
--- MSA                -- MyBatis
- --Nefilx Eureka      -- Html/thymeleaf
- Spring Security     Javascript/CSS
- Maven
+
+- Java 11            
+- MSA                
+- Nefilx Eureka      
+- Spring Security   
+- Maven
+- Oracle DB
+- MyBatis
+- Html/thymeleaf
+- Javascript/CSS  
 
 ### 오픈소스 & 라이브러리
+
 - 경기도 공공데이터 API
 - 카카오지도 API
 - Bootstrap
