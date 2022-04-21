@@ -119,7 +119,21 @@ https://user-images.githubusercontent.com/93241883/163706396-9a3eddd2-c0fe-41cf-
 
 ERD: [Animal-Pamarcy-ERD.pdf](https://github.com/Cold8rew/Animal-Pamarcy/files/8519000/Animal-Pamarcy-ERD.pdf)  
 
+### Spring boot
 
+> - 제어반전(IoC: Inversion of Control) 기반
+
+> : 컨트롤의 제어권이 사용자가 아닌 프레임워크에 있어서 필요에 따라 스프링에서 사용자의 코드를 호출한다.
+
+> - 의존성 주입(DI: Dependency Injection) 기반
+
+> : 각각의 계층이나 서비스들 간에 의존성이 존재할 경우 프레임워크가 서로 연결한다.
+
+> - 관점 지향 프로그래밍(AOP: Aspect-Oriented Programming) 기반
+
+> : 트랜잭션, 로깅, 보안과 같이 여러 모듈에서 공통적으로 사용하는 기능의 경우 해당 기능을 분리하여 관리 가능하다.
+
+ 
 
 
 
