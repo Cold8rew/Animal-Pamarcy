@@ -140,7 +140,11 @@ ERD: [Animal-Pamarcy-ERD.pdf](https://github.com/Cold8rew/Animal-Pamarcy/files/8
 
 Login을 담당하는 AP_Signup에서는 Security 설정을 추가해 인가된 사용자만 특정 API에 접근할 수 있도록 제한하였습니다.
 
-
+- CSRF 설정으로 허용된 URL만 접속할 수 있도록 하였습니다.
+- formLogin으로 Login page를 설정하였고, 로그인 성공/실패는 Handler로 처리하였습니다.  
+  successHandler : 로그인 성공한다면 회원정보를 쿠키에 담아 특정 URL로 이동
+  failureHandler : 로그인 실패한다면 error를 구분하여 URL에 설정하여 이동
+- 비밀번호 암호화를 위해 PasswordEncoder 설정
 
 
 
