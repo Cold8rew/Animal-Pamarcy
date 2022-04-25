@@ -89,7 +89,7 @@ https://user-images.githubusercontent.com/93241883/163706396-9a3eddd2-c0fe-41cf-
 
 # 개발 과정
  
-4주간 팀프로젝트로 Spring Cloud Netflix의 Eureka Service를 사용하여 개발했고 
+4주간 팀프로젝트로 Spring Cloud Netflix의 Eureka Service를 사용하여 개발했고,   
 저는 Main 지도 페이지를 담당하였으며, 개인적으로 Gateway패턴을 사용해서 통합해보았습니다.  
 
 - Spring Cloud Netflix를 사용하여 Eureka Server/Client 구축
@@ -119,7 +119,7 @@ https://user-images.githubusercontent.com/93241883/163706396-9a3eddd2-c0fe-41cf-
 
 ERD: [Animal-Pamarcy-ERD.pdf](https://github.com/Cold8rew/Animal-Pamarcy/files/8519000/Animal-Pamarcy-ERD.pdf)  
 
-### Spring boot
+## Spring boot
 
 > 제어반전(IoC: Inversion of Control) 기반  
 > : 컨트롤의 제어권이 사용자가 아닌 프레임워크에 있어서 필요에 따라 스프링에서 사용자의 코드를 호출한다.
@@ -138,7 +138,7 @@ ERD: [Animal-Pamarcy-ERD.pdf](https://github.com/Cold8rew/Animal-Pamarcy/files/8
 
 ![구조도](https://user-images.githubusercontent.com/93241883/164414398-ca525d84-1f93-4607-8c74-2ac85474f99c.png)
 
-### Spring Security
+## Spring Security
 
 Login을 담당하는 AP_Signup에서는 Security 설정을 추가해 인가된 사용자만 특정 API에 접근할 수 있도록 제한하였습니다.
 
@@ -148,3 +148,41 @@ Login을 담당하는 AP_Signup에서는 Security 설정을 추가해 인가된 
   - successHandler : 로그인 성공한다면 회원정보를 쿠키에 담아 특정 URL로 이동  
   - failureHandler : 로그인 실패한다면 error를 구분하여 URL에 설정하여 이동
 - 비밀번호 암호화를 위해 PasswordEncoder 설정
+
+
+## Spring cloud gateway
+
+- Route : 목적지의 URI와 Predicates라는 조건들의 목록 그리고 필터들을 이용하여 어떤 곳으로 Routing 할 것인지를 명시하는 역할을 합니다.
+```
+cloud:
+    gateway:
+      routes:
+        - id: map-service    
+          uri: lb://AP-CONSUMER
+```  
+
+
+- Predicate : Handler Mapping 시에 필요한 Uri 정보나, Path 정보를 확인하는 주체가 됩니다.
+```
+predicates:
+            - Path=/map/**
+```  
+gateway로 들어오는 모든 요청이 predicates에 충족한다면 지정된 URI 경로로 포워딩 합니다.   
+
+
+- Filter : Handler Mapping이 된 후 들어온 요청에 대한 필터 작업을 수행할 수 있다.
+```
+filters:
+            - RewritePath=/map/?(?<segment>.*), /$\{segment}
+```
+RewritePath를 설정함으로써 RequestMapping의 경로에 중복되는 '/map'을 적지 않아도 적용됩니다.   
+
+![그림1](https://user-images.githubusercontent.com/93241883/165034525-6d3e4248-5c6a-4ef1-b34f-7de9f3d4358b.png)  
+
+- Gateway를 통해서 설정에 맞는 프로젝트를 불러오게 되며, 각자 다른 포트번호를 Gateway의 포트번호로 통일시켜 줍니다.
+
+
+
+
+
+
