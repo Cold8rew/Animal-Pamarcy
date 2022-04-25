@@ -51,7 +51,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 		http.csrf().disable()
 			.authorizeRequests()
 			//로그인 관련 화면 접속 허용
-			.antMatchers("/loginForm","/login","/").permitAll()
+			.antMatchers("/loginForm","/login","/").permitAll() 
 			.antMatchers("/loginForm?error").permitAll()
 			//회원가입 관련 화면 접속 허용
 			.antMatchers("/signup", "/signupForm").permitAll()
