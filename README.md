@@ -153,6 +153,7 @@ Login을 담당하는 AP_Signup에서는 Security 설정을 추가해 인가된 
 ### Spring cloud gateway
 
 
+![spring boot](https://user-images.githubusercontent.com/93241883/165027923-3ae3720b-939c-474f-ba43-0b29cdad6022.png)
 
 
 
