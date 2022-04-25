@@ -153,13 +153,13 @@ Login을 담당하는 AP_Signup에서는 Security 설정을 추가해 인가된 
 ### Spring cloud gateway
 
 - Route : 목적지의 URI와 Predicates라는 조건들의 목록 그리고 필터들을 이용하여 어떤 곳으로 Routing 할 것인지를 명시하는 역할을 합니다.
-'''
+```
 cloud:
     gateway:
       routes:
         - id: map-service    
           uri: lb://AP-CONSUMER
-'''
+```
 
 ![spring boot](https://user-images.githubusercontent.com/93241883/165027923-3ae3720b-939c-474f-ba43-0b29cdad6022.png)
 
