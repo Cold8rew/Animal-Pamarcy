@@ -207,9 +207,10 @@ cloud:
             - Path=/**
 ```
 
+- Gateway를 통해서 설정에 맞는 프로젝트를 불러오게 되며, 각자 다른 포트번호를 Gateway의 포트번호로 통일시켜 줍니다.
+
 ![gate](https://user-images.githubusercontent.com/93241883/165047156-228e270b-e993-4ccd-987e-b037eee991dd.png)  
 
-- Gateway를 통해서 설정에 맞는 프로젝트를 불러오게 되며, 각자 다른 포트번호를 Gateway의 포트번호로 통일시켜 줍니다.
 
 
 
