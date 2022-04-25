@@ -89,7 +89,7 @@ https://user-images.githubusercontent.com/93241883/163706396-9a3eddd2-c0fe-41cf-
 
 # 개발 과정
  
-4주간 팀프로젝트로 Spring Cloud Netflix의 Eureka Service를 사용하여 개발했고 
+4주간 팀프로젝트로 Spring Cloud Netflix의 Eureka Service를 사용하여 개발했고,   
 저는 Main 지도 페이지를 담당하였으며, 개인적으로 Gateway패턴을 사용해서 통합해보았습니다.  
 
 - Spring Cloud Netflix를 사용하여 Eureka Server/Client 구축
