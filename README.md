@@ -123,18 +123,18 @@ ERD: [Animal-Pamarcy-ERD.pdf](https://github.com/Cold8rew/Animal-Pamarcy/files/8
 
 > 제어반전(IoC: Inversion of Control) 기반  
 > : 컨트롤의 제어권이 사용자가 아닌 프레임워크에 있어서 필요에 따라 스프링에서 사용자의 코드를 호출한다.
->    
+   
 > 의존성 주입(DI: Dependency Injection) 기반  
 > : 각각의 계층이나 서비스들 간에 의존성이 존재할 경우 프레임워크가 서로 연결한다.  
->  
+ 
 > 관점 지향 프로그래밍(AOP: Aspect-Oriented Programming) 기반  
 > : 트랜잭션, 로깅, 보안과 같이 여러 모듈에서 공통적으로 사용하는 기능의 경우 해당 기능을 분리하여 관리 가능하다.    
 
 > Login, Map, Detail page, Mypage 등 각자 다른 프로젝트로 개발하여 연결하였고, 구조는 다음과 같습니다.
->- Controller : 요청에 따라 로직처리를 담당하며, 사용자에게 서버에서 처리된 데이터를 담아 return 해줍니다.
->- Service : Controller의 호출에 맞는 데이터를 가공하여 넘겨줍니다.
->- DAO : MyBais에 접근하여 CRUD를 실행시켜주며, 그에 맞는 데이터를 VO에 담아 넘겨줍니다. (Map에서 사용될 Review 데이터 실행)
->- VO : 속성값을 비교하여 같다면 객체로서 사용할 수 있습니다. (공공데이터API 데이터 사용, DB에 저장된 Review 사용)
+- Controller : 요청에 따라 로직처리를 담당하며, 사용자에게 서버에서 처리된 데이터를 담아 return 해줍니다.
+- Service : Controller의 호출에 맞는 데이터를 가공하여 넘겨줍니다.
+- DAO : MyBais에 접근하여 CRUD를 실행시켜주며, 그에 맞는 데이터를 VO에 담아 넘겨줍니다. (Map에서 사용될 Review 데이터 실행)
+- VO : 속성값을 비교하여 같다면 객체로서 사용할 수 있습니다. (공공데이터API 데이터 사용, DB에 저장된 Review 사용)
 
 ![구조도](https://user-images.githubusercontent.com/93241883/164414398-ca525d84-1f93-4607-8c74-2ac85474f99c.png)
 
