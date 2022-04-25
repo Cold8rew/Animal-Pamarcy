@@ -177,7 +177,7 @@ filters:
 ```
 RewritePath를 설정함으로써 RequestMapping의 경로에 중복되는 '/map'을 적지 않아도 적용됩니다.  
 
-![다운로드](https://user-images.githubusercontent.com/93241883/165032063-ef5fb1a7-05f2-4619-8ba0-b010183c2e74.png)
+![다운로드](https://user-images.githubusercontent.com/93241883/165032063-ef5fb1a7-05f2-4619-8ba0-b010183c2e74.png)  
 각기 다른 Port번호를 갖는 프로젝트들이 gateway를 통해서 동일한 Port번호를 사용하는 구성이 된다.
 
 
