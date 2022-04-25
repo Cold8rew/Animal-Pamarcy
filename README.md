@@ -181,6 +181,35 @@ RewritePath를 설정함으로써 RequestMapping의 경로에 중복되는 '/map
 
 - Gateway를 통해서 설정에 맞는 프로젝트를 불러오게 되며, 각자 다른 포트번호를 Gateway의 포트번호로 통일시켜 줍니다.
 
+```
+cloud:
+    gateway:
+      routes:
+        - id: map-service    
+          uri: lb://AP-CONSUMER
+          predicates:
+            - Path=/map/**
+          filters:
+            - RewritePath=/map/?(?<segment>.*), /$\{segment} 
+            
+        - id: detail-service
+          uri: lb://AP-DETAIL
+          predicates:
+            - Path=/star/**
+            
+        - id: user-detail-service
+          uri: lb://USER-DETAIL-SERVICE
+          predicates:
+            - Path=/mypage/**
+          filters:
+            - RewritePath=/mypage/?(?<segment>.*), /$\{segment} 
+            
+        - id: signup-service
+          uri: lb://AP-SIGNINUP
+          predicates:
+            - Path=/**
+```
+
 
 
 
