@@ -159,20 +159,23 @@ cloud:
       routes:
         - id: map-service    
           uri: lb://AP-CONSUMER
-```
+```  
+
+
 - Predicate : Handler Mapping 시에 필요한 Uri 정보나, Path 정보를 확인하는 주체가 됩니다.
 ```
 predicates:
             - Path=/map/**
-```
-gateway로 들어오는 모든 요청이 predicates에 충족한다면 지정된 URI 경로로 포워딩 합니다.
+```  
+gateway로 들어오는 모든 요청이 predicates에 충족한다면 지정된 URI 경로로 포워딩 합니다.   
+
 
 - Filter : Handler Mapping이 된 후 들어온 요청에 대한 필터 작업을 수행할 수 있다.
 ```
 filters:
             - RewritePath=/map/?(?<segment>.*), /$\{segment}
 ```
-RewritePath를 설정함으로써 RequestMapping의 경로에 중복되는 '/map'을 적지 않아도 적용됩니다.
+RewritePath를 설정함으로써 RequestMapping의 경로에 중복되는 '/map'을 적지 않아도 적용됩니다.  
 
 ![spring boot](https://user-images.githubusercontent.com/93241883/165027923-3ae3720b-939c-474f-ba43-0b29cdad6022.png)
 
