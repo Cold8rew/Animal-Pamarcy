@@ -179,7 +179,7 @@ RewritePath를 설정함으로써 RequestMapping의 경로에 중복되는 '/map
 
 ![그림1](https://user-images.githubusercontent.com/93241883/165034525-6d3e4248-5c6a-4ef1-b34f-7de9f3d4358b.png)  
 
-각기 다른 Port번호를 갖는 프로젝트들이 gateway를 통해서 동일한 Port번호를 사용하는 구성이 된다.
+Gateway를 통해서 설정에 맞는 프로젝트를 불러오게 되며, 각자 다른 포트번호를 Gateway의 포트번호로 통일시켜 줍니다.
 
 
 
