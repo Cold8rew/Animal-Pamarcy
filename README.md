@@ -119,7 +119,7 @@ https://user-images.githubusercontent.com/93241883/163706396-9a3eddd2-c0fe-41cf-
 
 ERD: [Animal-Pamarcy-ERD.pdf](https://github.com/Cold8rew/Animal-Pamarcy/files/8519000/Animal-Pamarcy-ERD.pdf)  
 
-### Spring boot
+## Spring boot
 
 > 제어반전(IoC: Inversion of Control) 기반  
 > : 컨트롤의 제어권이 사용자가 아닌 프레임워크에 있어서 필요에 따라 스프링에서 사용자의 코드를 호출한다.
@@ -138,7 +138,7 @@ ERD: [Animal-Pamarcy-ERD.pdf](https://github.com/Cold8rew/Animal-Pamarcy/files/8
 
 ![구조도](https://user-images.githubusercontent.com/93241883/164414398-ca525d84-1f93-4607-8c74-2ac85474f99c.png)
 
-### Spring Security
+## Spring Security
 
 Login을 담당하는 AP_Signup에서는 Security 설정을 추가해 인가된 사용자만 특정 API에 접근할 수 있도록 제한하였습니다.
 
@@ -150,7 +150,7 @@ Login을 담당하는 AP_Signup에서는 Security 설정을 추가해 인가된 
 - 비밀번호 암호화를 위해 PasswordEncoder 설정
 
 
-### Spring cloud gateway
+## Spring cloud gateway
 
 - Route : 목적지의 URI와 Predicates라는 조건들의 목록 그리고 필터들을 이용하여 어떤 곳으로 Routing 할 것인지를 명시하는 역할을 합니다.
 ```
