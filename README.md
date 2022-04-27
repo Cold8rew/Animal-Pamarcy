@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 
-
-=======
->>>>>>> branch 'main' of https://github.com/Cold8rew/Animal-Pamarcy.git
 # Animal-Pamarcy	
 > ### 동물약국지도!! 집사들에게 편리함을!!
 
