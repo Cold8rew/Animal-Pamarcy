@@ -209,20 +209,3 @@ cloud:
 
 ![gate](https://user-images.githubusercontent.com/93241883/165047156-228e270b-e993-4ccd-987e-b037eee991dd.png)  
 
-
-
-
-
-
-
-
-
-<<<<<<< HEAD
-=======
-
-
-
-
-
-
->>>>>>> branch 'main' of https://github.com/Cold8rew/Animal-Pamarcy.git
