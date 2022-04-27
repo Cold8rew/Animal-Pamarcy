@@ -1,5 +1,3 @@
-
-
 # Animal-Pamarcy	
 > ### 동물약국지도!! 집사들에게 편리함을!!
 
@@ -177,9 +175,48 @@ filters:
 ```
 RewritePath를 설정함으로써 RequestMapping의 경로에 중복되는 '/map'을 적지 않아도 적용됩니다.   
 
-![그림1](https://user-images.githubusercontent.com/93241883/165034525-6d3e4248-5c6a-4ef1-b34f-7de9f3d4358b.png)  
+- 각 프로젝트에 맞는 Route/Predicates/Filters 를 설정하여 Gateway가 진입점이 되어 사용됩니다.
+```
+cloud:
+    gateway:
+      routes:
+        - id: map-service    
+          uri: lb://AP-CONSUMER
+          predicates:
+            - Path=/map/**
+          filters:
+            - RewritePath=/map/?(?<segment>.*), /$\{segment} 
+            
+        - id: detail-service
+          uri: lb://AP-DETAIL
+          predicates:
+            - Path=/star/**
+            
+        - id: user-detail-service
+          uri: lb://USER-DETAIL-SERVICE
+          predicates:
+            - Path=/mypage/**
+          filters:
+            - RewritePath=/mypage/?(?<segment>.*), /$\{segment} 
+            
+        - id: signup-service
+          uri: lb://AP-SIGNINUP
+          predicates:
+            - Path=/**
+```
 
 - Gateway를 통해서 설정에 맞는 프로젝트를 불러오게 되며, 각자 다른 포트번호를 Gateway의 포트번호로 통일시켜 줍니다.
+
+![gate](https://user-images.githubusercontent.com/93241883/165047156-228e270b-e993-4ccd-987e-b037eee991dd.png)  
+
+
+
+
+
+
+
+
+
 
 
 
