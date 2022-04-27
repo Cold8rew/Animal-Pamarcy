@@ -5,8 +5,6 @@
 
 *급하게 동물약품을 필요로하는 애견인들에게 도움을 줄 수 있는 프로젝트를 진행했습니다.*
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Cold8rew&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-
 
 # 사용 방법	
 
